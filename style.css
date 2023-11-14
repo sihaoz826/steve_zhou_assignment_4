@@ -1,0 +1,86 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f0f0;
+    color: #333;
+    margin: 0;
+    /* Remove or adjust the padding-top as needed */
+    padding-top: 0; /* Setting this to 0 will place the navbar at the top */
+}
+
+.navbar {
+    background-color: #000;
+    border-bottom: 0.125em solid #333;
+    /* Ensuring no list-style or pseudo-elements are displayed */
+    list-style-type: none;
+}
+
+.navbar-brand, .nav-link {
+    color: #000; /* Text color set to black */
+    text-decoration: none; /* Removes any underlines */
+}
+
+.navbar-brand:hover, .nav-link:hover {
+    color: #555; /* Darker shade of black for hover effect */
+}
+
+/* Additional styles to ensure no bullets or dots in the navbar */
+.navbar-nav, .navbar-nav li {
+    list-style-type: none; /* Removes bullets */
+    margin: 0; /* Resets margin */
+    padding: 0; /* Resets padding */
+}
+
+.navbar-nav li::before {
+    content: none; /* Ensures no pseudo-elements are generated */
+}
+
+
+.container {
+    background-color: #fff;
+    padding: 1.25em; /* Changed from px to em */
+    border-radius: 0.3125em; /* Changed from px to em */
+    box-shadow: 0 0.125em 0.25em rgba(0, 0, 0, 0.1); /* Changed from px to em */
+    margin-top: 1.875em; /* Changed from px to em */
+}
+
+h2 {
+    color: #000;
+    margin-bottom: 0.625em; /* Changed from px to em */
+}
+
+ul {
+    padding-left: 1.25em; /* Changed from px to em */
+    list-style-type: none;
+}
+
+li {
+    margin-bottom: 0.625em; /* Changed from px to em */
+    padding-left: 0.9375em; /* Changed from px to em */
+    position: relative;
+}
+
+li::before {
+    content: '';
+    width: 0.375em; /* Changed from px to em */
+    height: 0.375em; /* Changed from px to em */
+    border-radius: 50%;
+    background-color: #333;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+section {
+    margin-bottom: 2.5em; /* Changed from px to em */
+}
+
+@media (max-width: 48em) { /* Changed from px to em */
+    .navbar {
+        padding: 0.625em 0.9375em; /* Changed from px to em */
+    }
+
+    body {
+        padding-top: 3.125em; /* Changed from px to em */
+    }
+}

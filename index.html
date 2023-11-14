@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Professional Portfolio</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
+</head>
+<body>
+
+<!-- Navigation Bar -->
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <a class="navbar-brand" href="#">My Portfolio</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNav">
+    <ul class="navbar-nav">
+      <li class="nav-item"><a class="nav-link" href="#ey">Ernst & Young</a></li>
+      <li class="nav-item"><a class="nav-link" href="#aris">Aris</a></li>
+      <li class="nav-item"><a class="nav-link" href="#ibm">IBM Project</a></li>
+    </ul>
+  </div>
+</nav>
+
+<!-- Content -->
+<div class="container">
+  <section id="ey">
+    <h2>Ernst and Young, New York, NY - Machine Learning Intern</h2>
+    <p>Jun 2023 - Aug 2023</p>
+    <ul>
+      <li>Designed and implemented machine learning tax labeling workflow for EY Tax using PyTorch, spaCy, NLTK, and regex on Azure ML; increased labeling efficiency by 100 times.</li>
+      <li>Created contract parsing and analysis system for EY Tax using ChatGPT API, Elastic Search, and LangChain; enabled company-wide employees to parse out clauses, find similar documents and ask questions for all kinds of contracts.</li>
+      <li>Transformed the data presentation system for multiple clients utilizing Power BI; maintained communication with various teams and performed regular updates.</li>
+    </ul>
+  </section>
+
+  <section id="aris">
+    <h2>Aris, Pittsburgh, PA - Data Science Intern</h2>
+    <p>Nov 2022 - May 2023</p>
+    <ul>
+      <li>Implemented real time news scraping and populated a Postgres database, using SQL to perform database transactions.</li>
+      <li>Displayed and tagged related stock news with topic modeling, utilizing packages like Gensim, NLTK, and Pandas.</li>
+      <li>Designed content-based news recommendation algorithm based on watchlist/portfolio stocks and viewing history.</li>
+    </ul>
+  </section>
+
+  <section id="ibm">
+    <h2>IBM Blind Navigation Robot (AI Suitcase) Project, Pittsburgh, PA - Research Assistant</h2>
+    <p>Jul 2022 - Aug 2022</p>
+    <ul>
+      <li>Constructed convolutional neural network for suitcase-shaped robot intended to help blind people navigate indoor environments under 17-year IBM accessibility researcher Daisuke Sato.</li>
+      <li>Organized and processed terrain map information with Image Classification and Object Detection methods; expanded data set from 2 thousand pictures to 2 hundred thousand pictures with Image Augmentation algorithms.</li>
+    </ul>
+  </section>
+</div>
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
