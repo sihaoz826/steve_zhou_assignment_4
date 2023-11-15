@@ -1,9 +1,11 @@
+<!-- In this page, I implmented Cards, Accordion and Collapse from Bootstrap -->
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Education - My Portfolio</title>
+    <title>Steve's Education and Professional Website</title>
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet">
     <link href="style.css" rel="stylesheet">
 </head>
@@ -25,6 +27,8 @@
 </nav>
 
 
+<!-- Card Example -->
+
 <div class="container">
   <!-- Schools Heading -->
   <h2>Schools</h2>
@@ -38,7 +42,7 @@
               <div class="card-body">
                   <h5 class="card-title">Shenzhen Foreign Languages School</h5>
                   <p class="card-text">This was my first high school back in Shenzhen, China.</p>
-                  <a href="#" class="btn btn-primary">More Details</a>
+                  <a href="https://en.wikipedia.org/wiki/Shenzhen_Foreign_Languages_School" class="btn btn-primary">Wikipedia</a>
               </div>
           </div>
       </div>
@@ -50,7 +54,7 @@
               <div class="card-body">
                   <h5 class="card-title">St. Andrew's Episcopal School</h5>
                   <p class="card-text">This was my second high school in Potomac, MD.</p>
-                  <a href="#" class="btn btn-primary">More Details</a>
+                  <a href="https://en.wikipedia.org/wiki/St._Andrew%27s_Episcopal_School_(Maryland)" class="btn btn-primary">Wikipedia</a>
               </div>
           </div>
       </div>
@@ -62,15 +66,14 @@
               <div class="card-body">
                   <h5 class="card-title">Carnegie Mellon University</h5>
                   <p class="card-text">This is my current university at Pittsburgh, PA.</p>
-                  <a href="#" class="btn btn-primary">More Details</a>
+                  <a href="https://en.wikipedia.org/wiki/Carnegie_Mellon_University" class="btn btn-primary">Wikipedia</a>
               </div>
           </div>
       </div>
   </div>
 </div>
 
-
-
+<!-- Accordion Example -->
 <div class="container">
   <!-- Timeline Heading -->
   <h2>Timeline</h2>
@@ -81,14 +84,14 @@
       <div class="card-header" id="headingOne">
         <h2 class="mb-0">
           <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-            Degree 1 Title
+            2020-Present
           </button>
         </h2>
       </div>
 
       <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#educationAccordion">
         <div class="card-body">
-          Information about Degree 1...
+          I am at Carnegie Mellon University!!!
         </div>
       </div>
     </div>
@@ -98,34 +101,37 @@
       <div class="card-header" id="headingTwo">
         <h2 class="mb-0">
           <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-            Degree 2 Title
+            2018-2020
           </button>
         </h2>
       </div>
       <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#educationAccordion">
         <div class="card-body">
-          Information about Degree 2...
+          I was at St. Andrew's Episcopal School!!!
         </div>
       </div>
     </div>
 
     <!-- Accordion item 3 -->
     <div class="card">
-      <div class="card-header" id="headingTwo">
+      <div class="card-header" id="headingThree">
         <h2 class="mb-0">
-          <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-            Degree 2 Title
+          <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+            2016-2018
           </button>
         </h2>
       </div>
-      <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#educationAccordion">
+      <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#educationAccordion">
         <div class="card-body">
-          Information about Degree 2...
+          I was at Shenzhen Foreign Languages School!!!
         </div>
       </div>
     </div>
   </div>
 </div>
+
+
+<!-- Collapse Example -->
 
 <div class="container">
   <!-- Interesting Facts Heading -->
@@ -136,12 +142,12 @@
       <div class="col-md-4">
           <p>
               <a class="btn btn-primary" data-toggle="collapse" href="#collapseFact1" role="button" aria-expanded="false" aria-controls="collapseFact1">
-                  Fact 1 Title
+                  Potomac
               </a>
           </p>
           <div class="collapse" id="collapseFact1">
               <div class="card card-body">
-                  Fact 1 content goes here...
+                  Potomac, MD was the first place I visited when I came to the US for the first time. And I ended up going to a St. Andrew's, which is located in Potomac after 5 years!
               </div>
           </div>
       </div>
@@ -150,12 +156,12 @@
       <div class="col-md-4">
           <p>
               <a class="btn btn-primary" data-toggle="collapse" href="#collapseFact2" role="button" aria-expanded="false" aria-controls="collapseFact2">
-                  Fact 2 Title
+                  College Exams
               </a>
           </p>
           <div class="collapse" id="collapseFact2">
               <div class="card card-body">
-                  Fact 2 content goes here...
+                  I studied for both the US and Chinese version of the college entrance exam, SAT and Gaokao. To be honest, the Gaokao is so much harder.
               </div>
           </div>
       </div>
@@ -164,12 +170,12 @@
       <div class="col-md-4">
           <p>
               <a class="btn btn-primary" data-toggle="collapse" href="#collapseFact3" role="button" aria-expanded="false" aria-controls="collapseFact3">
-                  Fact 3 Title
+                  Live on My Own
               </a>
           </p>
           <div class="collapse" id="collapseFact3">
               <div class="card card-body">
-                  Fact 3 content goes here...
+                  For all the years I was in the States, my parents never came to US to visit (It was always me going back to China). But I managed my life very well in the States!
               </div>
           </div>
       </div>
@@ -180,6 +186,5 @@
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
-<script src="script.js"></script>
 </body>
 </html>
