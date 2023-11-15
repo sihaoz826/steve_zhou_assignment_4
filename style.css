@@ -34,6 +34,15 @@ body {
     content: none; /* Ensures no pseudo-elements are generated */
 }
 
+.navbar-img {
+    height: 7vh;
+    width: auto;
+    align-self: center;
+    margin-left: auto; /* This pushes the image to the right */
+    padding: 0px;
+    margin-bottom: 0px;
+}
+  
 
 .container {
     background-color: #fff;
