@@ -11,180 +11,182 @@
 </head>
 <body>
 
-<!-- Navigation Bar -->
-<nav class="navbar navbar-expand-lg navbar-light bg-light">
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
-  <div class="collapse navbar-collapse" id="navbarNav">
-    <ul class="navbar-nav">
-      <li class="nav-item"><a class="nav-link" href="index.html">Education</a></li>
-      <li class="nav-item"><a class="nav-link" href="experience.html">Experience</a></li>
-      <li class="nav-item"><a class="nav-link" href="photos.html">Photos</a></li>
-    </ul>
-  </div>
-  <img src="static/images/logo.png" class="navbar-img" alt="Your Image Description">
-</nav>
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item"><a class="nav-link" href="index.html">Education</a></li>
+          <li class="nav-item"><a class="nav-link" href="experience.html">Experience</a></li>
+          <li class="nav-item"><a class="nav-link" href="photos.html">Photos</a></li>
+        </ul>
+      </div>
+      <img src="static/images/logo.png" class="navbar-img" alt="Your Image Description">
+    </nav>
 
 
-<!-- Card Example -->
+    <!-- Card Example -->
 
-<div class="container">
-  <!-- Schools Heading -->
-  <h2>Schools</h2>
+    <div class="container">
+      <!-- Schools Heading -->
+      <h2>Schools</h2>
 
-  <!-- Row for Cards -->
-  <div class="row">
-      <!-- Card 1 -->
-      <div class="col-md-4">
-          <div class="card">
-              <img class="card-img-top" src="static/images/sfls.jfif" alt="Card image cap">
-              <div class="card-body">
-                  <h5 class="card-title">Shenzhen Foreign Languages School</h5>
-                  <p class="card-text">This was my first high school back in Shenzhen, China.</p>
-                  <a href="https://en.wikipedia.org/wiki/Shenzhen_Foreign_Languages_School" class="btn btn-primary">Wikipedia</a>
+      <!-- Row for Cards -->
+      <div class="row">
+          <!-- Card 1 -->
+          <div class="col-md-4">
+              <div class="card">
+                  <img class="card-img-top" src="static/images/sfls.jfif" alt="Card image cap">
+                  <div class="card-body">
+                      <h5 class="card-title">Shenzhen Foreign Languages School</h5>
+                      <p class="card-text">This was my first high school back in Shenzhen, China.</p>
+                      <a href="https://en.wikipedia.org/wiki/Shenzhen_Foreign_Languages_School" class="btn btn-primary">Wikipedia</a>
+                  </div>
+              </div>
+          </div>
+
+          <!-- Card 2 -->
+          <div class="col-md-4">
+              <div class="card">
+                  <img class="card-img-top" src="static/images/saes.png" alt="Card image cap">
+                  <div class="card-body">
+                      <h5 class="card-title">St. Andrew's Episcopal School</h5>
+                      <p class="card-text">This was my second high school in Potomac, MD.</p>
+                      <a href="https://en.wikipedia.org/wiki/St._Andrew%27s_Episcopal_School_(Maryland)" class="btn btn-primary">Wikipedia</a>
+                  </div>
+              </div>
+          </div>
+
+          <!-- Card 3 -->
+          <div class="col-md-4">
+              <div class="card">
+                  <img class="card-img-top" src="static/images/cmu.jpg" alt="Card image cap">
+                  <div class="card-body">
+                      <h5 class="card-title">Carnegie Mellon University</h5>
+                      <p class="card-text">This is my current university at Pittsburgh, PA.</p>
+                      <a href="https://en.wikipedia.org/wiki/Carnegie_Mellon_University" class="btn btn-primary">Wikipedia</a>
+                  </div>
               </div>
           </div>
       </div>
+    </div>
 
-      <!-- Card 2 -->
-      <div class="col-md-4">
-          <div class="card">
-              <img class="card-img-top" src="static/images/saes.png" alt="Card image cap">
-              <div class="card-body">
-                  <h5 class="card-title">St. Andrew's Episcopal School</h5>
-                  <p class="card-text">This was my second high school in Potomac, MD.</p>
-                  <a href="https://en.wikipedia.org/wiki/St._Andrew%27s_Episcopal_School_(Maryland)" class="btn btn-primary">Wikipedia</a>
-              </div>
+    <!-- Accordion Example -->
+    
+    <div class="container">
+      <!-- Timeline Heading -->
+      <h2>Timeline</h2>
+
+      <div id="educationAccordion">
+        <!-- Accordion item 1 -->
+        <div class="card">
+          <div class="card-header" id="headingOne">
+            <h2 class="mb-0">
+              <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                2020-Present
+              </button>
+            </h2>
           </div>
-      </div>
 
-      <!-- Card 3 -->
-      <div class="col-md-4">
-          <div class="card">
-              <img class="card-img-top" src="static/images/cmu.jpg" alt="Card image cap">
-              <div class="card-body">
-                  <h5 class="card-title">Carnegie Mellon University</h5>
-                  <p class="card-text">This is my current university at Pittsburgh, PA.</p>
-                  <a href="https://en.wikipedia.org/wiki/Carnegie_Mellon_University" class="btn btn-primary">Wikipedia</a>
-              </div>
+          <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#educationAccordion">
+            <div class="card-body">
+              I am at Carnegie Mellon University!!!
+            </div>
           </div>
-      </div>
-  </div>
-</div>
+        </div>
 
-<!-- Accordion Example -->
-<div class="container">
-  <!-- Timeline Heading -->
-  <h2>Timeline</h2>
+        <!-- Accordion item 2 -->
+        <div class="card">
+          <div class="card-header" id="headingTwo">
+            <h2 class="mb-0">
+              <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                2018-2020
+              </button>
+            </h2>
+          </div>
+          <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#educationAccordion">
+            <div class="card-body">
+              I was at St. Andrew's Episcopal School!!!
+            </div>
+          </div>
+        </div>
 
-  <div id="educationAccordion">
-    <!-- Accordion item 1 -->
-    <div class="card">
-      <div class="card-header" id="headingOne">
-        <h2 class="mb-0">
-          <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-            2020-Present
-          </button>
-        </h2>
-      </div>
-
-      <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#educationAccordion">
-        <div class="card-body">
-          I am at Carnegie Mellon University!!!
+        <!-- Accordion item 3 -->
+        <div class="card">
+          <div class="card-header" id="headingThree">
+            <h2 class="mb-0">
+              <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                2016-2018
+              </button>
+            </h2>
+          </div>
+          <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#educationAccordion">
+            <div class="card-body">
+              I was at Shenzhen Foreign Languages School!!!
+            </div>
+          </div>
         </div>
       </div>
     </div>
 
-    <!-- Accordion item 2 -->
-    <div class="card">
-      <div class="card-header" id="headingTwo">
-        <h2 class="mb-0">
-          <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-            2018-2020
-          </button>
-        </h2>
-      </div>
-      <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#educationAccordion">
-        <div class="card-body">
-          I was at St. Andrew's Episcopal School!!!
-        </div>
+
+    <!-- Collapse Example -->
+
+    <div class="container">
+      <!-- Interesting Facts Heading -->
+      <h2>Interesting Facts</h2>
+
+      <div class="row">
+          <!-- Collapse Item 1 -->
+          <div class="col-md-4">
+              <p>
+                  <a class="btn btn-primary" data-toggle="collapse" href="#collapseFact1" role="button" aria-expanded="false" aria-controls="collapseFact1">
+                      Potomac
+                  </a>
+              </p>
+              <div class="collapse" id="collapseFact1">
+                  <div class="card card-body">
+                      Potomac, MD was the first place I visited when I came to the US for the first time. And I ended up going to a St. Andrew's, which is located in Potomac after 5 years!
+                  </div>
+              </div>
+          </div>
+
+          <!-- Collapse Item 2 -->
+          <div class="col-md-4">
+              <p>
+                  <a class="btn btn-primary" data-toggle="collapse" href="#collapseFact2" role="button" aria-expanded="false" aria-controls="collapseFact2">
+                      College Exams
+                  </a>
+              </p>
+              <div class="collapse" id="collapseFact2">
+                  <div class="card card-body">
+                      I studied for both the US and Chinese version of the college entrance exam, SAT and Gaokao. To be honest, the Gaokao is so much harder.
+                  </div>
+              </div>
+          </div>
+
+          <!-- Collapse Item 3 -->
+          <div class="col-md-4">
+              <p>
+                  <a class="btn btn-primary" data-toggle="collapse" href="#collapseFact3" role="button" aria-expanded="false" aria-controls="collapseFact3">
+                      Live on My Own
+                  </a>
+              </p>
+              <div class="collapse" id="collapseFact3">
+                  <div class="card card-body">
+                      For all the years I was in the States, my parents never came to US to visit (It was always me going back to China). But I managed my life very well in the States!
+                  </div>
+              </div>
+          </div>
       </div>
     </div>
 
-    <!-- Accordion item 3 -->
-    <div class="card">
-      <div class="card-header" id="headingThree">
-        <h2 class="mb-0">
-          <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-            2016-2018
-          </button>
-        </h2>
-      </div>
-      <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#educationAccordion">
-        <div class="card-body">
-          I was at Shenzhen Foreign Languages School!!!
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
 
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
 
-<!-- Collapse Example -->
-
-<div class="container">
-  <!-- Interesting Facts Heading -->
-  <h2>Interesting Facts</h2>
-
-  <div class="row">
-      <!-- Collapse Item 1 -->
-      <div class="col-md-4">
-          <p>
-              <a class="btn btn-primary" data-toggle="collapse" href="#collapseFact1" role="button" aria-expanded="false" aria-controls="collapseFact1">
-                  Potomac
-              </a>
-          </p>
-          <div class="collapse" id="collapseFact1">
-              <div class="card card-body">
-                  Potomac, MD was the first place I visited when I came to the US for the first time. And I ended up going to a St. Andrew's, which is located in Potomac after 5 years!
-              </div>
-          </div>
-      </div>
-
-      <!-- Collapse Item 2 -->
-      <div class="col-md-4">
-          <p>
-              <a class="btn btn-primary" data-toggle="collapse" href="#collapseFact2" role="button" aria-expanded="false" aria-controls="collapseFact2">
-                  College Exams
-              </a>
-          </p>
-          <div class="collapse" id="collapseFact2">
-              <div class="card card-body">
-                  I studied for both the US and Chinese version of the college entrance exam, SAT and Gaokao. To be honest, the Gaokao is so much harder.
-              </div>
-          </div>
-      </div>
-
-      <!-- Collapse Item 3 -->
-      <div class="col-md-4">
-          <p>
-              <a class="btn btn-primary" data-toggle="collapse" href="#collapseFact3" role="button" aria-expanded="false" aria-controls="collapseFact3">
-                  Live on My Own
-              </a>
-          </p>
-          <div class="collapse" id="collapseFact3">
-              <div class="card card-body">
-                  For all the years I was in the States, my parents never came to US to visit (It was always me going back to China). But I managed my life very well in the States!
-              </div>
-          </div>
-      </div>
-  </div>
-</div>
-
-
-<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
 </body>
 </html>
