@@ -41,6 +41,8 @@ body {
     margin-left: auto; /* This pushes the image to the right */
     padding: 0px;
     margin-bottom: 0px;
+    right: 0;
+    position: fixed;
 }
   
 
@@ -104,5 +106,9 @@ section {
 @media (max-width: 48em) { /* Changed from px to em */
     .navbar {
         padding: 0.625em 0.9375em; /* Changed from px to em */
+    }
+    
+    .navbar-img {
+        height: 9vh;
     }
 }
