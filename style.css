@@ -75,6 +75,25 @@ section {
     margin-bottom: 2.5em; /* Changed from px to em */
 }
 
+
+
+/* Education Page */
+
+#educationAccordion .btn-link {
+    color: black; /* Set text color to black */
+    font-weight: bold; /* Make text bold */
+    text-decoration: none; /* Remove text decoration */
+}
+
+#educationAccordion .btn-link:hover,
+#educationAccordion .btn-link:focus {
+    text-decoration: none; /* Remove text decoration on hover and focus */
+}
+
+
+
+
+
 @media (max-width: 48em) { /* Changed from px to em */
     .navbar {
         padding: 0.625em 0.9375em; /* Changed from px to em */

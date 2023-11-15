@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Professional Portfolio</title>
+    <title>Education - My Portfolio</title>
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet">
     <link href="style.css" rel="stylesheet">
 </head>
@@ -17,44 +17,165 @@
   </button>
   <div class="collapse navbar-collapse" id="navbarNav">
     <ul class="navbar-nav">
-      <li class="nav-item"><a class="nav-link" href="#ey">Ernst & Young</a></li>
-      <li class="nav-item"><a class="nav-link" href="#aris">Aris</a></li>
-      <li class="nav-item"><a class="nav-link" href="#ibm">IBM Project</a></li>
+      <li class="nav-item"><a class="nav-link" href="index.html">Education</a></li>
+      <li class="nav-item"><a class="nav-link" href="experience.html">Experience</a></li>
+      <li class="nav-item"><a class="nav-link" href="photos.html">Photos</a></li>
     </ul>
   </div>
 </nav>
 
-<!-- Content -->
+
 <div class="container">
-  <section id="ey">
-    <h2>Ernst and Young, New York, NY - Machine Learning Intern</h2>
-    <p>Jun 2023 - Aug 2023</p>
-    <ul>
-      <li>Designed and implemented machine learning tax labeling workflow for EY Tax using PyTorch, spaCy, NLTK, and regex on Azure ML; increased labeling efficiency by 100 times.</li>
-      <li>Created contract parsing and analysis system for EY Tax using ChatGPT API, Elastic Search, and LangChain; enabled company-wide employees to parse out clauses, find similar documents and ask questions for all kinds of contracts.</li>
-      <li>Transformed the data presentation system for multiple clients utilizing Power BI; maintained communication with various teams and performed regular updates.</li>
-    </ul>
-  </section>
+  <!-- Schools Heading -->
+  <h2>Schools</h2>
 
-  <section id="aris">
-    <h2>Aris, Pittsburgh, PA - Data Science Intern</h2>
-    <p>Nov 2022 - May 2023</p>
-    <ul>
-      <li>Implemented real time news scraping and populated a Postgres database, using SQL to perform database transactions.</li>
-      <li>Displayed and tagged related stock news with topic modeling, utilizing packages like Gensim, NLTK, and Pandas.</li>
-      <li>Designed content-based news recommendation algorithm based on watchlist/portfolio stocks and viewing history.</li>
-    </ul>
-  </section>
+  <!-- Row for Cards -->
+  <div class="row">
+      <!-- Card 1 -->
+      <div class="col-md-4">
+          <div class="card">
+              <img class="card-img-top" src="image1.jpg" alt="Card image cap">
+              <div class="card-body">
+                  <h5 class="card-title">School 1</h5>
+                  <p class="card-text">Some description for School 1.</p>
+                  <a href="#" class="btn btn-primary">More Details</a>
+              </div>
+          </div>
+      </div>
 
-  <section id="ibm">
-    <h2>IBM Blind Navigation Robot (AI Suitcase) Project, Pittsburgh, PA - Research Assistant</h2>
-    <p>Jul 2022 - Aug 2022</p>
-    <ul>
-      <li>Constructed convolutional neural network for suitcase-shaped robot intended to help blind people navigate indoor environments under 17-year IBM accessibility researcher Daisuke Sato.</li>
-      <li>Organized and processed terrain map information with Image Classification and Object Detection methods; expanded data set from 2 thousand pictures to 2 hundred thousand pictures with Image Augmentation algorithms.</li>
-    </ul>
-  </section>
+      <!-- Card 2 -->
+      <div class="col-md-4">
+          <div class="card">
+              <img class="card-img-top" src="image2.jpg" alt="Card image cap">
+              <div class="card-body">
+                  <h5 class="card-title">School 2</h5>
+                  <p class="card-text">Some description for School 2.</p>
+                  <a href="#" class="btn btn-primary">More Details</a>
+              </div>
+          </div>
+      </div>
+
+      <!-- Card 3 -->
+      <div class="col-md-4">
+          <div class="card">
+              <img class="card-img-top" src="image3.jpg" alt="Card image cap">
+              <div class="card-body">
+                  <h5 class="card-title">School 3</h5>
+                  <p class="card-text">Some description for School 3.</p>
+                  <a href="#" class="btn btn-primary">More Details</a>
+              </div>
+          </div>
+      </div>
+  </div>
 </div>
+
+
+
+<div class="container">
+  <!-- Timeline Heading -->
+  <h2>Timeline</h2>
+
+  <div id="educationAccordion">
+    <!-- Accordion item 1 -->
+    <div class="card">
+      <div class="card-header" id="headingOne">
+        <h2 class="mb-0">
+          <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+            Degree 1 Title
+          </button>
+        </h2>
+      </div>
+
+      <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#educationAccordion">
+        <div class="card-body">
+          Information about Degree 1...
+        </div>
+      </div>
+    </div>
+
+    <!-- Accordion item 2 -->
+    <div class="card">
+      <div class="card-header" id="headingTwo">
+        <h2 class="mb-0">
+          <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+            Degree 2 Title
+          </button>
+        </h2>
+      </div>
+      <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#educationAccordion">
+        <div class="card-body">
+          Information about Degree 2...
+        </div>
+      </div>
+    </div>
+
+    <!-- Accordion item 3 -->
+    <div class="card">
+      <div class="card-header" id="headingTwo">
+        <h2 class="mb-0">
+          <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+            Degree 2 Title
+          </button>
+        </h2>
+      </div>
+      <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#educationAccordion">
+        <div class="card-body">
+          Information about Degree 2...
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="container">
+  <!-- Interesting Facts Heading -->
+  <h2>Interesting Facts</h2>
+
+  <div class="row">
+      <!-- Collapse Item 1 -->
+      <div class="col-md-4">
+          <p>
+              <a class="btn btn-primary" data-toggle="collapse" href="#collapseFact1" role="button" aria-expanded="false" aria-controls="collapseFact1">
+                  Fact 1 Title
+              </a>
+          </p>
+          <div class="collapse" id="collapseFact1">
+              <div class="card card-body">
+                  Fact 1 content goes here...
+              </div>
+          </div>
+      </div>
+
+      <!-- Collapse Item 2 -->
+      <div class="col-md-4">
+          <p>
+              <a class="btn btn-primary" data-toggle="collapse" href="#collapseFact2" role="button" aria-expanded="false" aria-controls="collapseFact2">
+                  Fact 2 Title
+              </a>
+          </p>
+          <div class="collapse" id="collapseFact2">
+              <div class="card card-body">
+                  Fact 2 content goes here...
+              </div>
+          </div>
+      </div>
+
+      <!-- Collapse Item 3 -->
+      <div class="col-md-4">
+          <p>
+              <a class="btn btn-primary" data-toggle="collapse" href="#collapseFact3" role="button" aria-expanded="false" aria-controls="collapseFact3">
+                  Fact 3 Title
+              </a>
+          </p>
+          <div class="collapse" id="collapseFact3">
+              <div class="card card-body">
+                  Fact 3 content goes here...
+              </div>
+          </div>
+      </div>
+  </div>
+</div>
+
 
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
