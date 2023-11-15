@@ -1,79 +1,87 @@
+/* Base styling for the body element */
 body {
     font-family: 'Arial', sans-serif;
     background-color: #f0f0f0;
     color: #333;
     margin: 0;
-    /* Remove or adjust the padding-top as needed */
-    padding-top: 0; /* Setting this to 0 will place the navbar at the top */
+    padding-top: 0;
 }
 
+/* Styling for the navigation bar */
 .navbar {
     background-color: #000;
     border-bottom: 0.125em solid #333;
-    /* Ensuring no list-style or pseudo-elements are displayed */
     list-style-type: none;
 }
 
+/* Styling for brand and link elements in the navbar */
 .navbar-brand, .nav-link {
-    color: #000; /* Text color set to black */
-    text-decoration: none; /* Removes any underlines */
+    color: #000;
+    text-decoration: none;
 }
 
+/* Hover effects for brand and link elements in the navbar */
 .navbar-brand:hover, .nav-link:hover {
-    color: #555; /* Darker shade of black for hover effect */
+    color: #555;
 }
 
-/* Additional styles to ensure no bullets or dots in the navbar */
+/* Styling for navbar navigation list */
 .navbar-nav, .navbar-nav li {
-    list-style-type: none; /* Removes bullets */
-    margin: 0; /* Resets margin */
-    padding: 0; /* Resets padding */
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
 }
 
+/* Removing default list item markers */
 .navbar-nav li::before {
-    content: none; /* Ensures no pseudo-elements are generated */
+    content: none;
 }
 
+/* Styling for the image in the navbar */
 .navbar-img {
     height: 7vh;
     width: auto;
     align-self: center;
-    margin-left: auto; /* This pushes the image to the right */
+    margin-left: auto;
     padding: 0px;
     margin-bottom: 0px;
     right: 0;
     position: static;
 }
   
-
+/* Container styling for main content */
 .container {
     background-color: #fff;
-    padding: 1.25em; /* Changed from px to em */
-    border-radius: 0.3125em; /* Changed from px to em */
-    box-shadow: 0 0.125em 0.25em rgba(0, 0, 0, 0.1); /* Changed from px to em */
-    margin-top: 1.875em; /* Changed from px to em */
+    padding: 1.25em;
+    border-radius: 0.3125em;
+    box-shadow: 0 0.125em 0.25em rgba(0, 0, 0, 0.1);
+    margin-top: 1.875em;
 }
 
+/* Styling for h2 headers */
 h2 {
     color: #000;
-    margin-bottom: 0.625em; /* Changed from px to em */
+    margin-bottom: 0.625em;
 }
 
+/* Unordered list styling */
 ul {
-    padding-left: 1.25em; /* Changed from px to em */
+    padding-left: 1.25em;
     list-style-type: none;
 }
 
+/* List item styling */
 li {
-    margin-bottom: 0.625em; /* Changed from px to em */
-    padding-left: 0.9375em; /* Changed from px to em */
+    margin-bottom: 0.625em;
+    padding-left: 0.9375em;
     position: relative;
 }
 
+/* Custom marker for list items */
 li::before {
     content: '';
-    width: 0.375em; /* Changed from px to em */
-    height: 0.375em; /* Changed from px to em */
+    width: 0.375em;
+    height: 0.375em;
     border-radius: 50%;
     background-color: #333;
     position: absolute;
@@ -82,32 +90,31 @@ li::before {
     transform: translateY(-50%);
 }
 
+/* Styling for sections */
 section {
-    margin-bottom: 2.5em; /* Changed from px to em */
+    margin-bottom: 2.5em;
 }
 
-
-
-/* Education Page */
-
+/* Education Page specific styling */
 #educationAccordion .btn-link {
-    color: black; /* Set text color to black */
-    font-weight: bold; /* Make text bold */
-    text-decoration: none; /* Remove text decoration */
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
 }
 
+/* Hover and focus styles for accordion links */
 #educationAccordion .btn-link:hover,
 #educationAccordion .btn-link:focus {
-    text-decoration: none; /* Remove text decoration on hover and focus */
+    text-decoration: none;
 }
 
-
-
-@media (max-width: 48em) { /* Changed from px to em */
+/* Media query for responsive design on smaller screens */
+@media (max-width: 48em) {
     .navbar {
-        padding: 0.625em 0.9375em; /* Changed from px to em */
+        padding: 0.625em 0.9375em;
     }
     
+    /* Adjust navbar image height on smaller screens */
     .navbar-img {
         height: 9vh;
     }
