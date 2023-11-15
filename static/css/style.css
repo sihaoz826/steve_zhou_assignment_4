@@ -42,7 +42,7 @@ body {
     padding: 0px;
     margin-bottom: 0px;
     right: 0;
-    position: fixed;
+    position: static;
 }
   
 
