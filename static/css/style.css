@@ -43,10 +43,9 @@ body {
     width: auto;
     align-self: center;
     margin-left: auto;
-    padding: 0px;
-    margin-bottom: 0px;
     right: 0;
-    position: static;
+    top: 0;
+    position: absolute;
 }
   
 /* Container styling for main content */
