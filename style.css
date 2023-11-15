@@ -92,14 +92,8 @@ section {
 
 
 
-
-
 @media (max-width: 48em) { /* Changed from px to em */
     .navbar {
         padding: 0.625em 0.9375em; /* Changed from px to em */
-    }
-
-    body {
-        padding-top: 3.125em; /* Changed from px to em */
     }
 }
